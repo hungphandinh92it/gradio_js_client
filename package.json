@@ -29,8 +29,7 @@
 	"scripts": {
 		"bundle": "vite build --ssr",
 		"generate_types": "tsc",
-		"build": "npm run bundle && npm run generate_types",
-		"postinstall": "npm run build"
+		"build": "pnpm run bundle && pnpm run generate_types"
 	},
 	"engines": {
 		"node": ">=18.0.0"
