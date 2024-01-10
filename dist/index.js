@@ -1212,7 +1212,7 @@ function transform_output(data, api_info, root_url, remote_url) {
       return d.map((img) => {
         return Array.isArray(img) ? [normalise_file(img[0], root_url, remote_url), img[1]] : [normalise_file(img, root_url, remote_url), null];
       });
-    } else if (typeof d === "object" && d.path) {
+    } else if (typeof d === "object" && d && d.path) {
       return normalise_file(d, root_url, remote_url);
     }
     return d;
