@@ -8,7 +8,9 @@ The Gradio JavaScript client is available on npm as `@gradio/client`. You can in
 
 ```sh
 npm i https://github.com/hungphandinh92it/gradio_js_client.git
+```
 or 
+```sh
 yarn add https://github.com/hungphandinh92it/gradio_js_client.git
 ```
 
